@@ -1,2 +1,4 @@
-# plate_recognition
-Plate Recognition based in Python, Deep Learning and OpenCV.
+# Plate Recognition
+
+*Plate Recognition based in Python, Deep Learning and OpenCV.*
+
