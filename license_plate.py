@@ -44,3 +44,9 @@ class LicensePlateDetector:
             if lp.success: # only continue if characters were successfully detected
 
                 yield (lp, lpRegion) # yield a tuple of the plate object and bounding box: <palte, bouncing_box>
+
+
+    # TODO
+    # We need to define the detectPlates function which detects license plate candidates in an input image.
+    
+     
