@@ -10,4 +10,4 @@ In this script we will:
 
 Files in the script:
 
- - ***license_plate.py***
+ - ***license_plate.py:*** *encapsulates all the methods we need to extract license plates and license plate characters from images.*
