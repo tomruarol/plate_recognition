@@ -22,14 +22,14 @@ for imagePath in sorted(list(paths.list_images(args["images"]))):
 	if image.shape[1] > 640:
 		image = imutils.resize(image, width=640)
 
-	# initialize the license plate detector and detect the license plates and candidates
+	# initialize the plate detector and detect the plates and candidates
 	lpd = LicensePlateDetector(image)
 	plates = lpd.detect()
 
-	# loop over the license plate regions
+	# loop over the plate regions
 	for (i, (lp, lpBox)) in enumerate(plates):
 		
-        # draw the bounding box surrounding the license plate
+        # draw the bounding box surrounding the plate
 		lpBox = np.array(lpBox).reshape((-1,1,2)).astype(np.int32)
 		cv2.drawContours(image, [lpBox], -1, (0, 255, 0), 2)
 
