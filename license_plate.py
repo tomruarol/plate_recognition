@@ -1,3 +1,8 @@
+'''
+This script contains all the develop for license paltes recognition. 
+Based on segmenting characters with openCV.
+'''
+
 # import the necessary packages
 from collections import namedtuple
 from skimage.filters import threshold_local
