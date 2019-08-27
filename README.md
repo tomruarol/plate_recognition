@@ -11,3 +11,4 @@
 #### Files in the script:
 
  - ***license_plate.py:*** *encapsulates all the methods we need to extract license plates and license plate characters from images.*
+ - ***recognize.py:*** *Driver Script. To see our results in action.*
