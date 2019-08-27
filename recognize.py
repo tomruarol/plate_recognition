@@ -1,3 +1,10 @@
+'''
+This script will help us see our results in action.
+
+Usage:
+$ python recognize.py --images ../testing_lp_dataset
+'''
+
 # import the necessary packages
 from __future__ import print_function
 from plate_recognition.license_plate import LicensePlateDetector
